@@ -15,6 +15,7 @@
 		"name": "Red ellipse with white outline on surface",
 		"properties": {
 			"type": "AOU",
+			"radians": 60.0,
 			"parent": "sensor1",
 			"status": {
 				"interval": "2012-08-04T10:00:00Z/2012-08-04T10:15:00Z",
@@ -75,7 +76,6 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": 60.0,
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -95,6 +95,7 @@
 		"name": "Red ellipse with white outline on surface",
 		"properties": {
 			"type": "AOU",
+			"radians": 90,
 			"parent": "sensor1",
 			"status": {
 				"interval": "2012-08-04T10:16:00Z/2012-08-04T10:30:00Z",
@@ -108,7 +109,6 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": 90,
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -128,6 +128,7 @@
 		"name": "Red ellipse with white outline on surface",
 		"properties": {
 			"type": "AOU",
+			"radians": 120.0,
 			"parent": "sensor1",
 			"status": {
 				"interval": "2012-08-04T10:25:00Z/2012-08-04T10:32:00Z",
@@ -141,7 +142,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": 120.0,
+
 			"height": 0,
 			"material": {
 				"solidColor": {
