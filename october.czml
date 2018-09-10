@@ -142,7 +142,6 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-
 			"height": 0,
 			"material": {
 				"solidColor": {
