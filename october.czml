@@ -326,7 +326,7 @@
 			"verticalOrigin": "CENTER"
 		},
 		"properties": {
-			"type": "Posit"
+			"type": "Posit",
 			"image": "svgSFSP"
 		},
 		"position": {
