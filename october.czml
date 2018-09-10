@@ -75,7 +75,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": "Cesium.Math.toRadians(60.0)",
+			"rotation": 60.0,
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -108,7 +108,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": "Cesium.Math.toRadians(90.0)",
+			"rotation": 90,
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -141,7 +141,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": "Cesium.Math.toRadians(120.0)",
+			"rotation": 120.0,
 			"height": 0,
 			"material": {
 				"solidColor": {
