@@ -75,7 +75,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": Cesium.Math.toRadians(60.0),
+			"rotation": "Cesium.Math.toRadians(60.0)",
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -84,7 +84,7 @@
 					}
 				}
 			},
-			"outline": true, // height must be set for outlines to display
+			"outline": true, 
 			"outlineColor": {
 				"rgba": [255, 255, 255, 255]
 			}
@@ -97,7 +97,7 @@
 			"type": "AOU",
 			"parent": "sensor1",
 			"status": {
-				"interval: "2012-08-04T10:16:00Z/2012-08-04T10:30:00Z",
+				"interval": "2012-08-04T10:16:00Z/2012-08-04T10:30:00Z",
 				"boolean": true
 			}
 		},
@@ -108,7 +108,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": Cesium.Math.toRadians(90.0),
+			"rotation": "Cesium.Math.toRadians(90.0)",
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -117,7 +117,7 @@
 					}
 				}
 			},
-			"outline": true, // height must be set for outlines to display
+			"outline": true, 
 			"outlineColor": {
 				"rgba": [255, 255, 255, 255]
 			}
@@ -141,7 +141,7 @@
 		"ellipse": {
 			"semiMinorAxis": 50000.0,
 			"semiMajorAxis": 400000.0,
-			"rotation": Cesium.Math.toRadians(120.0),
+			"rotation": "Cesium.Math.toRadians(120.0)",
 			"height": 0,
 			"material": {
 				"solidColor": {
@@ -150,7 +150,7 @@
 					}
 				}
 			},
-			"outline": true, // height must be set for outlines to display
+			"outline": true, 
 			"outlineColor": {
 				"rgba": [255, 255, 255, 255]
 			}
@@ -211,9 +211,9 @@
 	},
 	{
 		"id": "BER2",
-		"type: "Bearing",
-		"name: "Red line clamped to terain",
-		"properties: {
+		"type": "Bearing",
+		"name": "Red line clamped to terain",
+		"properties": {
 			"type": "Bearing",
 			"parent": "sensor1",
 			"status": [{
@@ -344,8 +344,8 @@
 			]
 		},
 		"billboard": {
-			"image": svgSFSP,
-			"outlineWidth: 4,
+			"image": "svgSFSP",
+			"outlineWidth": 4,
 			"pixelOffset": {
 				"cartesian2": [0.0, -22.0]
 			}
