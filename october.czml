@@ -327,6 +327,7 @@
 		},
 		"properties": {
 			"type": "Posit"
+			"image": "svgSFSP"
 		},
 		"position": {
 			"epoch": "2012-08-04T10:00:00Z",
@@ -344,7 +345,6 @@
 			]
 		},
 		"billboard": {
-			"image": "svgSFSP",
 			"outlineWidth": 4,
 			"pixelOffset": {
 				"cartesian2": [0.0, -22.0]
