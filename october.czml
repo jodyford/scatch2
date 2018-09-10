@@ -1,5 +1,4 @@
-[
-    {
+{
       id: "document",
       name: "The Hunt for Red October",
       version: "1.0",
@@ -361,4 +360,3 @@
         }
       }
     }
-  ]
