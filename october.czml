@@ -10,6 +10,36 @@
 			"multiplier": 100
 		}
 	},
+	{       "id": "Bel1",
+		"name": "bell 1",
+		"proterties": {
+			"type": "BEL",
+			"parent": "sensor1",
+			"trackCount": 0,
+			"trackID": "track1",
+			"status": {
+				"interval": "2012-08-04T10:00:00Z/2012-08-04T10:15:00Z",
+				"boolean": true
+			}
+		}
+	},	
+	{       "id": "Det1",
+		"name": "detection 1",
+		"proterties": {
+			"type": "DET",
+			"algorythm": "name",
+			"clusterID": "cluster id",
+			"platformclassName": "name",
+			"tacintprofileName": "tacint profile name",
+			"invalid detection": "string",
+			"other": "put any other key value pairs you want under properties",
+			"parent": "sensor1",
+			"status": {
+				"interval": "2012-08-04T10:00:00Z/2012-08-04T10:15:00Z",
+				"boolean": true
+			}
+		}
+	},
 	{
 		"id": "AUO1",
 		"name": "Red ellipse with white outline on surface",
